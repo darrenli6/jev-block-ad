@@ -1,0 +1,42 @@
+{
+  "name": "jev-adblock",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-source AI ad blocker for Chrome. No filter lists: TypeSafe AI's Jev model decides what is an ad. Bring your own key.",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "build:zip": "wxt zip",
+    "typecheck": "wxt prepare && tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^24.13.6",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "wxt": "^0.19.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fazlerocks/jev-adblock"
+  },
+  "keywords": [
+    "chrome-extension",
+    "ad-blocker",
+    "adblock",
+    "ai-ad-blocker",
+    "jev",
+    "typesafe",
+    "typesafe-ai",
+    "jev-example",
+    "manifest-v3",
+    "open-source",
+    "privacy"
+  ]
+}
